@@ -1,0 +1,97 @@
+ /* .parent{
+    display:grid; */
+    /* grid-template-columns: 50px 50px 50px; */
+    /* grid-template-columns: repeat(4,50px); */
+    /* grid-template-rows: 50px 75px 50px ;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+css of first grid 
+
+.child{
+    display:flex;
+
+    background-color: blueviolet;
+    justify-content : center;
+    align-items : center;
+
+
+}
+
+.header{
+grid-column-start:1;
+grid-column-end:4;
+/* grid-row-start: 1;
+grid-row-end: 3; */
+
+/* }
+
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.main{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.right{
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+
+}
+
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}  */
+
+/* css of second box */
+.parent{
+    display: grid;
+    grid-template-rows: 50px 75px 50px ;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+    column-gap: 1px;
+    row-gap: 1px;
+
+}
+
+.child{
+    display:flex;
+
+    background-color:brown;
+    justify-content : center;
+    align-items : center;
+
+
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:darkorange;
+}
+
+.two{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: bisque;
+}
+.four{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: chartreuse;
+}
+
+.three{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end:4 ;
+}

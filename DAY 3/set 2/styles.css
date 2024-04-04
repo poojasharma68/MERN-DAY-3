@@ -1,0 +1,24 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+.body{
+    min-height: 100vh;
+    width:50vw;
+}
+/* relative,absolute css */
+/* .parent{
+    background-color: brown;
+    height: 100px;
+    width:100px;
+
+    position:relative;
+    top:200px;
+} */
+
+h1{
+    position: sticky;
+    top:10px;
+}
